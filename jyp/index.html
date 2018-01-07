@@ -1,0 +1,521 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lexis - Minimal, Corporate Bootstrap template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.boots0trapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="index.html">JYP</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><div class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="pages/about-jyp">About JYP</a></li> 
+                  <li><a href="pages/about-jhansi">Jhansi</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li><div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">About 
+                  <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="pages/JYP.html">About JYP</a></li>
+              <li><a href="pages/Jhansi.html">Jhansi</a></li>
+            </ul>
+            </div></li>
+            <li><div class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Committee
+                <span class="caret"></span></a>
+          
+          <ul class="dropdown-menu">
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+            <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+          </ul>
+          </div></li>
+          <li><a href="#">Executive Board</a></li>
+          <li><div class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Registration
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+                  <li><a href="pages/loksabha.html">Lok Sabha</a></li>
+                </ul>
+              </div></li>
+         
+         
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1 >Jhansi Youth Parliament</h1>
+        <p>The Jhansi Youth Parliament expects to manufacture a profound understanding in the youthful personalities towards the authoritative techniques in the nation. They roleplay as the ‘elected members’ of the democracy and their innovative ideas can bring about a vast change in the working the Parliament.
+            The Jhansi Youth Parliament unites the finest Moderators from everywhere throughout the nation.</p>
+            <p><b>SAVE THE DATES</b><br><small>03<sup>rd</sup> Feburary - 04<sup>st</sup> Feburary, 2018</small>      
+              
+              
+              
+              <!-- Display the countdown timer in an element -->
+
+              
+              <p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + " Days " +"-"+ hours + " Hours "
+  +"-"+ minutes + " Minutes "+"-" + seconds + " Seconds ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+              
+              
+              
+              
+              
+              
+              <!---<div class="timer">
+
+                  <div class="countdown-wrapper">
+                     <div id="countdown-text">
+                       <div class="timer">
+                         <div id="daysTicker" class="countdown"></div>
+                         <div class="counter-text">DAYS</div>
+                       </div>
+                       <div class="timer">
+                         <div id="hoursTicker" class="countdown"></div>
+                         <div class="counter-text">HOURS</div>
+                       </div>
+                       <div class="timer">
+                         <div id="minsTicker" class="countdown"></div>
+                         <div class="counter-text">MINS</div>
+                       </div>
+                       <div class="timer">
+                         <div id="secsTicker" class="countdown"></div>
+                         <div class="counter-text">SECS</div>
+                       </div>
+                     </div>
+                   </div>
+                 
+                 
+                 </div>-------->
+              <br><br><br>
+            <a href="#" class="btn btn-large">Find out more</a> </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+</section>
+<!-- header section --> 
+<!-- President Notes strat -->
+<center>
+    <div class="president_note">
+    <p>FROM THE PRESIDENT'S DESK</p>
+    <div class="president_note_upper">
+    <p>
+    
+    Revered Parliamentarians <br><br>
+    It gives us immense pleasure to invite you all to the inaugural edition of the Jhansi Youth Parliament scheduled this autumn, i.e., 30 September – 01 October, 2017 at Mahamaya School , Sector 44, Noida ,India. <br><br>
+    Jhansi Youth Parliament will be a two day National Conference which seeks to bring together motivated and talented parliamentarians and provide a forum for meaningful debate on issues significant to National politics and Indian diplomacy.<br>  <br>
+    The event calls upon parliamentarians from across the country to discuss about edge-cuttings and topics of national importance under one roof in committees like Uttar Pradesh Vidhan Sabha and National Security Council which are not commonly platformed under the YP umbrella. In the 2-day conference, parliamentarians will be assigned positions like ministers and members of parliament and shall utilise their full potential to seek the constituency they represent. <br><br>
+    With a team of 30+ young hardworking individuals, the Secretariat is working really hard to provide you an experience to remember and memories to cherish for a lifetime. We strongly encourage you to take full advantage of this opportunity brought forward by Jhansi Youth Parliament. <br> <br> 
+    Please do not hesitate to reach out to us with any questions or concerns. We look forward to welcoming you this autumn! <br><br> <a style="font-family: 'Hind', sans-serif;
+    ">राजनीति_करें_राष्ट्रनीति_करें</a>
+    
+    </p>
+    
+    <div class="president_note_upper01">
+    <p>
+    <b>XYZ</b><br>
+    Co-Founder & Co-President<br>
+    Jhansi Youth Parliament
+    
+    </p>
+    </div>
+    
+    
+    <div class="president_note_upper01">
+    <p>
+    <b>ABC</b><br>
+    Co-Founder & Co-President<br>
+    Jhansi Youth Parliament
+    </p>
+    </div>
+    </div>
+    </div>
+    </center>
+    <!-- President Notes Closed -->
+<!-- committees section -->
+
+
+
+<section id="committees" class="committees service-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-strategy"></span>
+        <div class="committees-content">
+          <h5>registration</h5>
+          
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-briefcase"></span>
+        <div class="committees-content">
+          <h5>registration</h5>
+          
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-tools"></span>
+        <div class="committees-content">
+          <h5>registration</h5>
+          
+        </div>
+      </div>
+      <!------<div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-genius"></span>
+        <div class="committees-content">
+          <h5>Branding</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-megaphone"></span>
+        <div class="committees-content">
+          <h5>Digital marketing</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 committees text-center"> <span class="icon icon-trophy"></span>
+        <div class="committees-content">
+          <h5>Promotion material</h5>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+        </div>
+      </div>
+    </div>
+  </div>------->
+</section>
+<!-- committees section --> 
+<!-- work section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Project Name</h5>
+            <p>Website Design</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+    </div>
+  </div>
+</section>
+<!-- work section --> 
+<!-- our team section -->
+<section id="teams" class="section teams">
+  <div class="container">
+    <div class="row">
+      <!--<div class="col-md-3 col-sm-6">
+        <div class="person"><img src="images/team-1.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Lisa Brown</h4>
+            <h5 class="role">The Mastermind</h5>
+            
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="col-md-3 col-sm-6">
+        <div class="person"> <img src="images/team-2.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>ABC CDF</h4>
+            <h5 class="role">Founder</h5>
+            <p>Founder of JYP</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="person"> <img src="images/team-3.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>XYZ UVW</h4>
+            <h5 class="role">Co Founder</h5>
+            <p>Co Founder of JYP</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="col-md-3 col-sm-6">
+        <div class="person"> <img src="images/team-4.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Rita Rose</h4>
+            <h5 class="role">Marketing head</h5>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- our team section --> 
+<!-- Testimonials section -->
+<section id="testimonials" class="section testimonials no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-12" >
+              <blockquote>
+                <h1>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Phasellus non dolor nibh. Nullam elementum Aenean eu leo quam..." </h1>
+                <p>Rene Brown, Open Window production</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12" style="margin-left: auto; margin-right:auto;">
+              <blockquote>
+                <h1>"Cras dictum tellus dui, vitae sollicitudin ipsum. Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat shasellus non dolor nibh. Nullam elementum tellus pretium feugiat." </h1>
+                <p>Brain Rice, Lexix Private Limited.</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
+                <p>Andi Simond, Global Corporate Inc</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
+                <p>Kristy Gabbor, Martix Media</p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials section --> 
+
+<!-- contact section -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 conForm">
+        <h5>Shoot An Email</h5>
+        <p>We are happy to talk you through any projects or run live demos for those wishing to see what it is to use our products and how they look like.</p>
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Project Details..."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send your query">
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section --> 
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>Collins Street West Victoria 8007 Australia.<br>
+            1800 1234 56789 / 98532100987<br>
+            support@lexis.com</p>
+          <p>Copyright © 2015 Lexis Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>committees We Offer</h5>
+          <p>
+          <ul>
+            <li><a href="#">Digital Strategy</a></li>
+            <li><a href="#">Websites</a></li>
+            <li><a href="#">Videography</a></li>
+            <li><a href="#">Social Media</a></li>
+            <li><a href="#">User Experience</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Share with Love</h5>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
+</footer>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script> 
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+</body>
+</html>
